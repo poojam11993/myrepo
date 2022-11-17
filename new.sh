@@ -5,4 +5,4 @@ ls -l| grep "^d" |awk '{print $NF}' > mydir
 cat mylinks
 cat myfiles 
 cat mydir
-echo "pooja commit"
+echo "Deepak commit"
