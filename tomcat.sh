@@ -12,7 +12,7 @@ sudo sh /opt/tomcat/bin/shutdown.sh
 sleep 3
 sudo sh /opt/tomcat/bin/startup.sh
 sudo rm -rf conf-and-webapps-file
-sudo git clone https://github.com/syedwaliuddin/conf-and-webapps-file.git
+sudo git clone https://github.com/poojam11993/myrepo.git
 sudo rm -rf /opt/tomcat/conf/tomcat-users.xml
 sudo cp conf-and-webapps-file/tomcat-users.xml /opt/tomcat/conf/
 sudo sh /opt/tomcat/bin/shutdown.sh
